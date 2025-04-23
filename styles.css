@@ -1,0 +1,812 @@
+.container1{
+    /* border: 2px solid wheat; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    
+}
+.child{
+    font-size: 23px;
+    font-weight: 500px;
+    line-height: 100%s;
+    text-decoration: none;
+    background: linear-gradient(to left, red, blue);
+    -webkit-background-clip: text;
+    color: transparent;
+ 
+  }
+  .c6{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 8px;
+    box-shadow: 20px 8px 20px rgba(0, 0, 0, 0.2);
+    color: blue;
+  }
+ .navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 50px;
+ }
+
+ .img{
+    margin-left: 60px;
+ }
+
+ /* ------------------------------------------ */
+
+ .container2{
+    display: flex;
+    position: relative;
+    /* border: 2px solid black;  */
+    height: 500px;
+    width: 100%;
+
+ }
+ .heading span{
+    /* border: 2px solid black; */
+    position: relative;
+    height: 80px;
+    width: 200px;
+    font-size:25px;
+    color:#210379;
+    font-weight: bold;
+    font-size: 30px;
+    top: 20px;
+    left: 60px;
+    line-height: 100%;
+       
+ }
+ .heading2 span{
+    /* border: 2px solid black; */
+    position: relative;
+    font-size: 30px;
+    color: #210379;
+    font-weight: bold;
+    top: 70px;
+    right: 112px;
+
+ }
+ .text span{
+    position: absolute;
+    top:130px ;
+    left: 60px; 
+    /* border: 2px solid black; */
+    height: 80px;
+    width: 600px;
+    font-size: 20px;
+    color: #5D5D5D;
+    
+
+ }
+ .img2 img{
+    position:absolute;
+    height: 700px;
+    width: 500px;
+    left: 55%;
+    bottom: 1px;
+  }
+
+  .button{
+    position: relative;
+    border: 1px solid black;
+    background: linear-gradient(90deg, #210379 28%, #FF5900 100%);
+    color: white;
+    height: 20px;
+    width: 125px;
+    padding: 10px;
+    top: 250px;
+    right:420px;
+  }
+  .button2{
+    position: relative;
+    border: 1px solid black;
+    color: black;
+    height: 20px;
+    width: 120px;
+    padding: 10px;
+    top: 250px;
+    right:300px;
+    border-radius: 3px;
+    color: #210379;
+    
+  }
+  /* ---------------------------------------------- */
+
+  .container3{
+    /* border: 2px solid black;  */
+    position: absolute;
+    height: 100px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 180px;
+  }
+  .head1 span{
+    /* border: 2px solid black; 
+    height: 60px;
+    width: 100px; */
+    position: relative;
+    font-size: 50px;
+    color: #210379;
+    left: 100px;
+ }
+ .head2 span{
+    /* border: 2px solid black; */
+    height: 60px;
+    width: 100px; 
+    position: relative;
+    font-size: 50px;
+    color: #210379;
+    top:80px;
+    right: 80px;
+
+    
+ }
+/* ------------------------------------------ */
+
+.container4 {
+ position: relative;
+ /* border: 2px solid black; */
+ height: 300px;
+ width: 90%;
+ border-radius: 25px;
+ background-color: #EFEEEE;
+ top: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ left: 80px;
+}
+.container4:hover{
+ cursor: pointer;
+ border: 4px solid lightblue;
+
+}
+.circle1 img{
+   position: relative;
+   margin-bottom: 180px;
+   margin-right: 1100px;
+}
+.matter1 pre{
+ /* border: 2px solid black; */
+ height: 200px;
+ width: 350px;
+ position: relative;
+ margin-top: 30px; 
+ margin-right: 1480px;
+ font-family: Inter;
+ font-weight: 50px;
+ font-size: 23px;
+ line-height: 121%;
+ color: #210379;
+}
+.matter2 pre{
+  /* border: 2px solid black; */
+  height: 200px;
+ width: 350px;
+ position: relative;
+ margin-top: 30px; 
+ right: 1390px;
+ font-family: Inter;
+ font-weight: 300;
+ font-size: 23px;
+ line-height: 121%;
+ color: #210379;
+}
+.matter3 pre{
+  /* border: 2px solid black; */
+  height: 200px;
+ width: 350px;
+ position: relative;
+ margin-top: 30px; 
+ right: 1360px;
+ font-family: Inter;
+ font-weight: 300;
+ font-size: 23px;
+ line-height: 121%;
+ color: #210379;
+}
+/* ----------------------------------------- */
+
+.container5{
+ /* border: 2px solid black; */
+ height: 80px;
+ width: 100%;
+ margin-top: 60px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.head3 span{
+ font-family: Inter;
+ font-weight: 600;
+ font-size: 40px;
+ line-height: 121%;
+ color: #210379;
+
+}
+/* --------------------------------------------- */
+
+.container6 {
+ position: relative;
+ /* border: 2px solid black; */
+ height: 300px;
+ width: 90%;
+ top: 40px;
+ display: flex;
+ left: 80px;
+}
+.c1 img{
+ position: absolute;
+ left: 300px;
+
+}
+
+
+
+ .c1 :hover{
+ border: 2px solid blue;
+} 
+.c1text1 span{
+ position: absolute;
+ top: 100px;
+ left: 280px;
+ font-family: Inter;
+ font-weight: 300;
+ font-size: 23px;
+ line-height: 121%;
+ text-align: center;
+ color: #210379;
+}
+
+.c1text2 span{
+ position: absolute;
+ top: 125px;
+ left: 250px;
+ font-family: Inter;
+ font-weight: 300;
+ font-size: 23px;
+ line-height: 121%;
+ text-align: center;
+ color: #210379;
+}
+
+.c2 img{
+ position: absolute;
+ left: 580px;
+
+}
+ .c2 :hover{
+ border: 2px solid blue;
+} 
+.c2text1 span{
+ position: absolute;
+ top: 100px;
+ left: 520px;
+ font-family: Inter;
+ font-weight: 300;
+ font-size: 23px;
+ line-height: 121%;
+ text-align: center;
+ color: #210379;
+}
+
+.c2text2 span{
+ position: absolute;
+ top: 125px;
+ left: 500px;
+ font-family: Inter;
+ font-weight: 300;
+ font-size: 23px;
+ line-height: 121%;
+ text-align: center;
+ color: #210379;
+}
+.c3 img{
+ position: absolute;
+ left: 900px;
+
+}
+ .c3 :hover{
+ border: 2px solid blue;
+} 
+.c3text1 span{
+ position: absolute;
+ top: 100px;
+ left: 860px;
+ font-family: Inter;
+ font-weight: 300;
+ font-size: 23px;
+ line-height: 121%;
+ text-align: center;
+ color: #210379;
+}
+
+.c3text2 span{
+ position: absolute;
+ top: 125px;
+ left: 860px;
+ font-family: Inter;
+ font-weight: 300;
+ font-size: 23px;
+ line-height: 121%;
+ text-align: center;
+ color: #210379;
+}
+/* --------------------------------------- */
+.container7 {
+ position: relative;
+ /* border: 2px solid black;  */
+ height: 580px;
+ width: 90%;
+ top: 40px;
+ display: flex;
+ left: 80px;
+}
+.get span{
+ position: absolute;
+ font-family: Inter;
+ font-weight: 700;
+ font-size: 54px;
+ line-height: 100%;
+ text-align: center;
+ color: #210379;
+ left: 100px;
+}
+.Lorem pre{
+ position: absolute;
+ /* border: 2px solid black; */
+ height: 150px;
+ width: 200px;
+ top: 100px;
+ font-family: Inter;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 100%;
+ text-align: center;
+ color: #5D5D5D;
+}
+.number span{
+ position: absolute;
+ top:250px;
+ left: 150px;
+ font-family: Inter;
+ font-weight: 500;
+ font-size: 23px;
+ line-height: 100%;
+ color: #210379;
+}
+.email span{
+ position: absolute;
+ top: 300px;
+ left:150px;
+ font-family: Inter;
+ font-weight: 500;
+ font-size: 23px;
+ line-height: 100%;
+ color: #210379;
+}
+.location pre{
+ position: absolute;
+ top: 340px;
+ left: 79px;
+ font-family: Inter;
+ font-weight: 500;
+ font-size: 23px;
+ line-height: 100%;
+ color: #210379;
+}
+
+input[type="search"]{
+   position: absolute;
+   left: 750px;
+   top: 100px;
+   border: 2px solid rgb(185, 184, 184);
+   height:50px ;
+   width: 187px;
+   border-radius: 40px;
+   padding: 5px;
+   padding-left: 20px;
+   font-family: Inter;
+   font-weight: 300;
+   font-size: 21px;
+   line-height: 100%;
+   
+  } 
+input[type="email"]{
+   position: absolute;
+   left: 1000px;
+   top: 100px;
+   border: 2px solid rgb(168, 165, 165);
+   height:35px ;
+   width: 180px;
+   border-radius: 40px;
+   padding: 5px;
+   padding-left:20px ;
+   font-family: Inter;
+   font-weight: 300;
+   font-size: 21px;
+   line-height: 100%;
+   /* text-align: center; */
+  }
+  input[type="number"]{
+   position: absolute;
+   left: 750px;
+   top: 200px;
+   border: 2px solid rgb(168, 165, 165);
+   height:35px ;
+   width: 180px;
+   border-radius: 40px;
+   padding: 5px;
+   padding-left: 20px;
+   font-family: Inter;
+   font-weight: 300;
+   font-size: 21px;
+   line-height: 100%;
+   }
+   input[type="text"]{
+   position: absolute;
+   left: 1000px;
+   top: 200px;
+   border: 2px solid rgb(168, 165, 165); 
+   height:25px ;
+   width: 180px;
+   border-radius: 40px;
+   padding: 10px;
+   padding-left: 20px;
+   font-family: Inter;
+   font-weight: 300;
+   font-size: 21px;
+   line-height: 100%;
+ 
+   }
+    /* .textpart{
+    position: absolute;
+    left: 750px;
+   top: 300px;
+   border: 2px solid black;
+   height:35px ;
+   width: 180px; 
+ } */
+
+ .textarea span{
+    position: absolute;
+    left: 760px;
+    top: 300px;
+    border: 2px solid rgb(185, 183, 183);  
+    width: 420px;
+    height: 180px;
+    border-radius: 18px;
+    padding: 5px;
+   padding-left: 20px;
+   font-family: Inter;
+   font-weight: 300;
+   font-size: 21px;
+   line-height: 100%;
+   color: rgb(132, 130, 130);
+  
+ }
+ .textarea span:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+ }
+  .boxs form :hover{
+    border: 2px solid blue;
+    cursor: pointer;
+  }
+  .submit span{
+    position: absolute;
+    border: 1px solid black;
+    background: linear-gradient(90deg, #210379 28%, #FF5900 100%);
+    color: white;
+    height: 25px;
+    width: 145px;
+    padding: 18px;
+    padding-right: 10px;
+    top: 500px;
+    left:550px;
+    border-radius: 1px solid black;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+ }
+ /* ------------------------------------------------------------------ */
+ .main{
+    overflow: hidden;
+ }
+ .container8{
+    position: relative;
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 100%;
+    top: 60px;
+    background-color: #eeecec;
+ }
+  .Imagess img{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+   } 
+   /* .Imagess img:hover{
+    border: 3px solid blue;
+    cursor: pointer;
+   } */
+   .Images2 img{
+    position: absolute;
+    top: 80px;
+    left: 499px;
+   }
+
+   .Image3 img{
+    position: absolute;
+    top: 80px;
+    left: 650px;
+   }
+   .Image4 img{
+    position: absolute;
+    top: 70px;
+    left: 920px;
+   }
+   .Image5 img{
+    position: absolute;
+    top: 70px;
+    left: 1080px;
+   }
+   .container8:hover{
+    border: 3px solid lightblue;
+    cursor: pointer;
+   }
+   .Cursor img:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+   }
+   /* -------------------------------------- */
+   .container9{
+    /* border: 2px solid black; */
+    height: 350px;
+    width: 100%;
+    position: relative;
+    top: 80px;
+    display: flex;
+    
+   }
+   .lastimage img{
+    position: absolute;
+    top: 20px;
+    margin-left:80px;
+   }
+   .lastimage img:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+   }
+   .items1{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 70%;
+    position: absolute;
+    left: 290px;
+    top: 10px;
+    
+   }
+   
+   .items1 pre{
+     position: absolute;
+     left: 0px;
+     font-family: Inter;
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 100%;
+     letter-spacing: 0%;
+     background: linear-gradient(to bottom, rgb(31, 8, 238), rgb(251, 250, 252));
+    -webkit-background-clip: text;
+    color: transparent; 
+    
+
+   }
+ 
+   .items2 pre{
+    position: absolute;
+    left: 500px; 
+    font-family: Inter;
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 100%;
+     letter-spacing: 0%;
+     background: linear-gradient(to bottom, rgb(31, 8, 238), rgb(251, 250, 252));
+    -webkit-background-clip: text;
+    color: transparent; 
+     
+   }
+   .box span{
+    position: absolute;
+    border: 1px solid rgb(108, 102, 102);
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    left: 950px;
+    top: 20px;
+    text-align: center;
+    padding: 10px;
+    color:rgb(47, 47, 138);
+
+   }
+   .t1 span{
+    position: absolute;
+    top: 90px;
+    left:950px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background: linear-gradient(to bottom, blue, white);
+    -webkit-background-clip: text;
+    color: transparent;
+ }
+ .t2 span{
+    position: absolute;
+    top: 30px;
+    left:1180px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background: linear-gradient(to bottom, blue, white);
+    -webkit-background-clip: text;
+    color: transparent;
+ }
+ .smallline p{
+    position: absolute;
+    top: 280px;
+    left: 600px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #210379;
+
+ }
+ .line img{
+    position: absolute;
+    top: 250px;
+    left:450px ;
+    color: #210379;
+    border: 0.5px;
+ }
+ .line img:hover{
+    border: 3px solid lightblue;
+    cursor: pointer;
+ }
+
+@media (max-width: 768px){
+.container1 {
+flex-direction: row;
+align-items: center;
+text-align: center;
+}
+
+.navBar {
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+}
+
+.navBar .child {
+margin: 5px;
+}
+
+.container2 {
+text-align: center;
+padding: 20px;
+flex-direction: column;
+display: flex;
+}
+
+.container2 .heading,
+.container2 .heading2,
+.container2 .text {
+font-size: 18px;
+margin: 10px 0;
+}
+
+.img2 img {
+width: 100%;
+max-width: 300px;
+}
+
+.button,
+.button2 {
+margin: 10px auto;
+text-align: center;
+}
+
+.container4 {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.matter1,
+.matter2,
+.matter3 {
+padding: 10px;
+font-size: 14px;
+}
+
+.container6 {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.container7 {
+padding: 20px;
+text-align: center;
+}
+
+.boxs form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.container8 .Cursor {
+display: flex;
+flex-direction: column;
+gap: 10px;
+align-items: center;
+}
+
+.container9 {
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.items1, .items2, .box, .t1, .t2 {
+margin: 10px 0;
+}
+
+.line img {
+width: 80%;
+}
+}
+
+@media (max-width: 480px) {
+.heading span,
+.heading2 span,
+.text span {
+font-size: 16px;
+}
+
+.img2 img {
+width: 90%;
+}
+
+.container4 img {
+width: 60px;
+height: 60px;
+}
+
+.submit span {
+padding: 10px 20px;
+font-size: 14px;
+}
+
+.smallline p {
+font-size: 12px;
+}
+}
